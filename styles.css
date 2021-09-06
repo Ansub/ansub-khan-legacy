@@ -1,0 +1,38 @@
+html body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #e51364;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+.heading {
+  font-size: 100px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* Social Media Icons */
+.fa {
+  padding: 10px;
+  font-size: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.socials {
+  font-size: 30px;
+}
