@@ -169,10 +169,7 @@ p {
   font-family: "IBM Plex Sans", sans-serif;
 }
 /* Media Rules */
-@media (max-width: 1000px) {
-  .heading {
-    font-size: 50px;
-  }
+
 
   img {
     width: 300px;
