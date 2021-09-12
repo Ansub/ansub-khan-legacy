@@ -180,7 +180,7 @@ p {
   }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 600px) {
   .heading {
     font-size: 30px;
   }
