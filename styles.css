@@ -335,6 +335,14 @@ a:hover {
     font-size: 15px;
     padding: 5px;
   }
+
+  .school {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  /* Hobbies and Volunteer  */
+
   .hv {
     padding: 25px;
     flex-direction: column;
@@ -347,10 +355,10 @@ a:hover {
   .hv-column {
     flex: 50%;
     font-size: 20px;
-    padding: 0px;
+    padding: 15px;
   }
   .hv-heading {
-    font-size: 20px;
+    font-size: 25px;
   }
   #hv-img {
     width: 200px;
