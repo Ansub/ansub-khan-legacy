@@ -160,6 +160,7 @@ p {
   font-family: "Archivo Black", sans-serif;
   font-size: 100px;
   transition: all 0.3s;
+  padding-bottom: 30px;
 }
 
 .skills-title:hover {
@@ -167,15 +168,18 @@ p {
 }
 .fab {
   padding: 10px;
-  background-color: #9741c4;
   color: white;
-  border-radius: 10px;
   transition: all 0.4s;
 }
+
 .skills-icon {
   font-size: 60px;
 }
 
+.skills-icon:hover {
+  font-size: 60px;
+  color: #9741c4;
+}
 /* Education */
 
 .education {
