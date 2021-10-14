@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="shortcut icon" href="/images/AK.png" type="image/x-icon" />
     <!-- Google Fonts-->
     <link
@@ -34,8 +35,9 @@
       <ul id="myLinks">
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#h&v">Hobbies & Volunteer</a></li>
+        <li><a href="#h&v">H&V</a></li>
       </ul>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -78,7 +80,7 @@
         <div class="fa fa-angle-down fa-3x"></div>
       </div>
       <!-- About Section -->
-      <div class="about">
+      <section class="about">
         <div class="about-column about-text">
           <div class="about-title" id="about-me">About Me</div>
           <p>
@@ -93,9 +95,9 @@
         <div class="about-column about-image">
           <img src="images/photo.jpeg" id="about-img" />
         </div>
-      </div>
+      </section>
       <!-- Skills -->
-      <div class="skills">
+      <section class="skills">
         <div class="skills-title" id="skills">Skills</div>
         <div class="skills-icon">
           <ul>
@@ -110,9 +112,34 @@
             <li class="fab fa-git"></li>
           </ul>
         </div>
-      </div>
+      </section>
+      <!-- Project -->
+      <section class="projects">
+        <div class="projects-title" id="projects">Projects</div>
+
+        <div class="row">
+          <div class="col">
+            <a
+              target="_blank"
+              href="https://github.com/Ansub/Rising-Ramen"
+              class="projects-name"
+              >Rising Ramen</a
+            >
+            <p>
+              made a full-responsive Ramen Restaurant using Bootstrap 5 and
+              custom CSS. also added some elements like counter, favicon
+              background on scroll using Javascript. for this project I also
+              used technologies like Figma and Canva.
+            </p>
+          </div>
+
+          <a target="_blank" href="https://risingramen.netlify.app/"
+            ><img src="/images/risingRamen.png"
+          /></a>
+        </div>
+      </section>
       <!-- Education -->
-      <div class="education">
+      <section class="education">
         <div class="edu-title" id="education">Education</div>
         <div class="edu-info">
           <div class="college">Bachelor of Computer Applications</div>
@@ -124,46 +151,70 @@
           <div class="degree">Grade 12, Science</div>
           <div class="year">2017-2018</div>
         </div>
-      </div>
+      </section>
       <!-- Hobbies and Volunteer -->
-      <div class="hv-title" id="h&v">Hobbies & Volunteer</div>
+      <section>
+        <div class="hv-title" id="h&v">Hobbies & Volunteer</div>
 
-      <div class="hv">
-        <div class="hv-column">
-          <div class="hv-heading">Islamitude</div>
-          <p>
-            In 2019, I established a non-profit organization dedicated to
-            assisting those in need, particularly those suffering from
-            depression and anxiety. Also, Islamitude has organized fundraisers
-            for people in need of money for food, health, and other necessities.
-            Islamitude now has over 50K Instagram followers and 4K Twitter
-            followers.
-          </p>
+        <div class="hv">
+          <div class="hv-column">
+            <div class="hv-heading">Islamitude</div>
+            <p>
+              In 2019, I established a non-profit organization dedicated to
+              assisting those in need, particularly those suffering from
+              depression and anxiety. Also, Islamitude has organized fundraisers
+              for people in need of money for food, health, and other
+              necessities. Islamitude now has over 50K Instagram followers and
+              4K Twitter followers.
+            </p>
+          </div>
+          <div class="hv-column hv-image">
+            <img src="images/islamitude.png" id="hv-img" />
+          </div>
         </div>
-        <div class="hv-column hv-image">
-          <img src="images/islamitude.png" id="hv-img" />
+        <div class="hv">
+          <div class="hv-column">
+            <div class="hv-heading">Unsplash</div>
+            <p>
+              I enjoy taking pictures and used to download a lot of wallpapers
+              from Unsplash, so I decided to contribute to the platform so that
+              others could also see my work. So I started uploading my photos to
+              it and discovered that it had been viewed by approximately 1.7
+              million people.
+            </p>
+          </div>
+          <div class="hv-column hv-image">
+            <i class="fab fa-unsplash"></i>
+          </div>
         </div>
-      </div>
-      <div class="hv">
-        <div class="hv-column">
-          <div class="hv-heading">Unsplash</div>
-          <p>
-            I enjoy taking pictures and used to download a lot of wallpapers
-            from Unsplash, so I decided to contribute to the platform so that
-            others could also see my work. So I started uploading my photos to
-            it and discovered that it had been viewed by approximately 1.7
-            million people.
-          </p>
-        </div>
-        <div class="hv-column hv-image">
-          <i class="fab fa-unsplash"></i>
-        </div>
-      </div>
+      </section>
       <!-- Footer -->
 
-      <div class="footer">
-        <p class="footer-text">Made by <a href="">Ansub Khan</a></p>
-      </div>
+      <footer class="footer">
+        <p class="footer-text">Made by <a href="#">Ansub Khan</a></p>
+        <div class="socials-footer">
+          <a
+            href="https://twitter.com/justansub"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ansub/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/Ansub"
+            target="_blank"
+            class="fa fa-github"
+          ></a>
+          <a
+            href="mailto:khanansub3@gmail.com"
+            target="_blank"
+            class="fa fa-envelope"
+          ></a>
+        </div>
+      </footer>
     </div>
     <script src="app.js"></script>
   </body>
