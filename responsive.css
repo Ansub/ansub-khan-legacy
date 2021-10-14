@@ -108,6 +108,7 @@
   .projects p {
     font-size: 20px;
     line-height: 1.9rem;
+    padding-right: 0;
   }
   .projects a {
     padding-bottom: 20px;

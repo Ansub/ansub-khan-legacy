@@ -233,7 +233,9 @@ p {
   color: #9741c4;
   transition: all 0.3s;
 }
-
+.projects p {
+  padding-right: 5rem;
+}
 .edu-title:hover {
   text-shadow: 6px 10px 0px #fff;
 }
