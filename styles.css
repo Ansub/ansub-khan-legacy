@@ -155,7 +155,8 @@ p {
 /* Skills */
 
 .skills {
-  color: #9741c4;
+  color: white;
+  background-color: #9741c4;
   padding: 90px;
   display: flex;
   justify-content: center;
@@ -170,9 +171,6 @@ p {
   padding-bottom: 30px;
 }
 
-.skills-title:hover {
-  text-shadow: 6px 10px 0px #fff;
-}
 .fab {
   padding: 10px;
   color: white;
@@ -200,8 +198,8 @@ p {
 }
 .row {
   display: flex;
-  padding: 100px 200px;
-  flex-direction: column Impo !important;
+  padding: 100px 300px;
+  flex-direction: row;
 }
 .projects-name {
   font-family: "Archivo Black", sans-serif;
@@ -223,6 +221,7 @@ p {
 /* Education */
 
 .education {
+  background: #9741c4;
   padding: 100px;
   display: flex;
   justify-content: center;
@@ -230,18 +229,16 @@ p {
   align-items: center;
 }
 .edu-title {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   font-family: "Archivo Black", sans-serif;
   font-size: 80px;
-  color: #9741c4;
+  color: white;
   transition: all 0.3s;
 }
 .projects p {
   padding-right: 5rem;
 }
-.edu-title:hover {
-  text-shadow: 6px 10px 0px #fff;
-}
+
 .college {
   font-size: 30px;
   font-family: "Archivo Black", sans-serif;
@@ -302,25 +299,22 @@ p {
   font-size: 30px;
   color: #9741c4;
 }
-.fa-unsplash {
-  font-size: 200px;
-  background-color: #0e0a17;
-}
 
 /* Footer */
 .footer {
-  background-color: #9741c4;
+  background-color: #0d0a16;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5px;
+  padding: 1px;
 }
 
 .footer-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   padding: 10px;
+  margin-bottom: 10px;
 }
 .footer a {
   color: white;
