@@ -26,13 +26,7 @@ nav {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
 }
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
-.topnav #myLinks {
-  display: none;
-}
+
 .logo {
   width: 200px;
   height: 100px;
@@ -202,7 +196,7 @@ p {
 }
 .row {
   display: flex;
-  padding: 100px 300px;
+  padding: 100px 100px;
   flex-direction: row;
 }
 .projects-name {
@@ -212,7 +206,7 @@ p {
 }
 
 .col {
-  padding-inline: 10px 40px;
+  padding-inline: 20px 100px;
 }
 .projects img {
   width: 400px;
